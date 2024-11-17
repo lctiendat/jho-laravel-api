@@ -27,8 +27,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('info', [AuthController::class, 'info'])->name('info');
     });
     Route::resource('contacts', ContactController::class);
+    Route::resource('tags', TagController::class);
+    Route::resource('managers', ManagerController::class);
 });
-
-Route::resource('tags', TagController::class);
-Route::resource('managers', ManagerController::class);
-Route::post('login', [AuthController::class, 'login'])->name('login');
+Route::post('auth/login', [AuthController::class, 'login'])->name('login');

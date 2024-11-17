@@ -8,7 +8,7 @@ Các bước setup source ở local:
 git clone https://github.com/lctiendat/jho-laravel-api    
 cd jho-laravel-api
 2. Chạy lệnh 'composer install' để cài các package PHP cần thiết
-3. Chỉnh sửa thông tin databse tại file .env
+3. Sao chép file .env.example với tên .env và chỉnh sửa thông tin databse tại file .env
 4. Import file sql có đính kèm ( ưu tiên) hoặc chạy lệnh 'php artisan migrate' sau đó chạy 'php artisan db:seed'
 5. Chạy lệnh 'php artisan serve' để run server
 
