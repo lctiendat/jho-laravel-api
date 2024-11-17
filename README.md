@@ -1,11 +1,11 @@
-Yêu cầu môi trường
-PHP >= 8.1
-Composer (quản lý thư viện PHP)
-MySQL hoặc MariaDB ( Ưu tiên sử dụng Xampp)
+Yêu cầu môi trường:    
+1. PHP >= 8.1    
+2. Composer (quản lý thư viện PHP)    
+3. MySQL hoặc MariaDB ( Ưu tiên sử dụng Xampp)
 
-Các bước setup source ở local
-1. Clone dự án về
-git clone https://github.com/lctiendat/jho-laravel-api
+Các bước setup source ở local:
+1. Clone dự án về    
+git clone https://github.com/lctiendat/jho-laravel-api    
 cd jho-laravel-api
 2. Chạy lệnh 'composer install' để cài các package PHP cần thiết
 3. Chỉnh sửa thông tin databse tại file .env
